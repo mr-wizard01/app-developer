@@ -1,0 +1,146 @@
+*{
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+.container{
+    position: relative;
+    height: calc(100vh - 45px);
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 50px;
+  //  background: url( to bottom right,blue,gold ,crimson);
+  background-color: aqua;
+  background: linear-gradient(to bottom right,red ,gold, purple);
+
+}
+.container:hover{
+    border-radius: none;
+    background: url(Desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    position: absolute;
+    height: auto;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius:17px ;
+    background: linear-gradient(to right,blue,lightblue);
+    top: 25px;
+    left: 45px;
+}
+
+.logo:hover{
+    background-color: transparent;
+    border: 1px solid gray;
+    box-shadow: 4px 5px 25px blue;
+    cursor: pointer;
+    color: blue;
+}
+
+.logo h1{
+    color: crimson;
+    text-shadow: 4px 3px 12px green;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.logo h1 span{
+    color: green;
+    font: 24px inherit;
+}
+
+.container .list{
+    position: absolute;
+    left: 50%;
+    top: 120px;
+    width: 200px;
+    height: 360px;
+    transform: translateX(-50%);
+    background-color: aqua;
+    box-shadow: 8px 7px 28px green;
+
+}
+
+.list:hover{
+    background-color: transparent;
+}
+.list ul{
+    position: relative;
+    display: block;
+    justify-content: space-around;
+}
+ul li{
+    background-color: crimson;
+    padding-left: 12px;
+    margin: 20px;
+    box-shadow: 5px 4px 23px greenyellow;
+    list-style: none;
+    height: auto;
+}
+li:hover{
+    background-color: transparent;
+}
+ a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color:gold;
+ }
+
+
+//  lets style our iconx
+.fa{
+    color: blue;
+    font-family: monospace;
+    font-size: 22px;
+    padding-right: 10px;
+
+}
+.fa:hover{
+    color: red;
+    font-size: 25px;
+    padding-right: 10px;
+}
+.bars .fa{
+    color: whitesmoke;
+    padding-top: 11px;
+    padding-left: 12px;
+}
+
+.unknown{
+    display: none;
+}
+
+
+.vid{
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    left: 50px;
+    top: 300px;
+}
+video{
+    height: 140px;
+    width: auto;
+}
+
+
+// toggling bar division goes gere
+.bars{
+    background-color: black;
+    color: whitesmoke;
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    top: 10px;
+    right: 25px;
+    
+}
+.bars:hover{
+    background-color: transparent;
+}
